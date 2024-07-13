@@ -1,4 +1,4 @@
-    <script>
+
         async function replaceContent() {
             try {
                 // Fetch the content of the external HTML page
@@ -24,4 +24,3 @@
 
         // Call the function to replace the content
         replaceContent();
-    </script>
